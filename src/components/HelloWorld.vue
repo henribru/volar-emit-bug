@@ -11,17 +11,12 @@ export default defineComponent({
   },
   emits: {
     "foo-bar": (
-      _foo: number
-    ) => true,
-    "fooBaz": (
-      _foo: number
     ) => true,
   },
   setup(props, {emit}) {
     const count = ref(0);
 
-    emit("foo-bar", 3);
-    emit("fooBaz", 5);
+    emit("foo-bar");
 
     return {count}
   }

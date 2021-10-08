@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld :msg="'Hello Vue 3 + TypeScript + Vite'" @foo-bar="(foo) => console.log(foo)" @foo-baz="(foo) => console.log(foo)" />
+  <HelloWorld :msg="'Hello Vue 3 + TypeScript + Vite'" @foo-bar="(foo) => console.log(foo)" />
 </template>
 
 <script lang="ts">
